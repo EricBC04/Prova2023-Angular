@@ -56,5 +56,11 @@ ngOnInit(): void {
   this.loadEmpresas();
 }
 
+  Exluir(empresas: Empresas): void{
+    this.EmpresasService.remove(empresas).subscribe({
+      next:() => this.loadEmpresas()
+
+  });
+}
 
 }
