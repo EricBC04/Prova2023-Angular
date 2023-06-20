@@ -1,0 +1,43 @@
+{
+  "empresas": [
+    {
+      "id": 1,
+      "nome": "BlendPaper",
+      "contato": "blendpaper@gmail.com",
+      "categoria": "Papel Moeda",
+      "localizaçao": "Salto"
+    },
+
+    {
+      "id": 2,
+      "nome": "Brahma",
+      "contato": "brahma@gmail.com",
+      "categoria": "Bebidas",
+      "localizaçao": "São Paulo"
+    },
+
+    {
+      "id": 3,
+      "nome": "Ype",
+      "contato": "ype@gmail.com",
+      "categoria": "Produtos Limpeza",
+      "localizaçao": "Salto"
+    },
+
+    {
+      "id": 4,
+      "nome": "Heineken",
+      "contato": "heineken@hotmail.com",
+      "categoria": "Bebidas",
+      "localizaçao": "Indaiatuba"
+    },
+
+    {
+      "id": 5,
+      "nome": "Eucatex",
+      "contato": "eucatex@hotmail.com",
+      "categoria": "Tintas",
+      "localizaçao": "Salto"
+    }
+  ]
+}

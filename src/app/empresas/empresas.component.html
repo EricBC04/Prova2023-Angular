@@ -1,0 +1,54 @@
+<div class="row">
+  <div class="col-8 m-auto mt-5">
+    <form [formGroup]="formGroupEmpresas">
+      <div class="mb-3">
+        <label for="nome" class="form-label" autofocus>Informe o nome da Empresa</label>
+        <input
+          type="text"
+            formControlName="nome"
+              class="form-control"
+                id="nome"
+                  placeholder="Informe o nome da sua empresa"
+                    />
+                    </div>
+
+      <div class="mb-3">
+        <label for="contato" class="form-label">Informe o contato da Empresa</label>
+        <input
+          type="text"
+            formControlName="contato"
+              class="form-control"
+                id="contato"
+                  placeholder="Informe o contato da sua empresa"
+                    />
+                      </div>
+
+      <div class="mb-3">
+        <label for="categoria" class="form-label">Informe a categoria da sua Empresa</label>
+        <input
+          type="text"
+            formControlName="categoria"
+              class="form-control"
+                id="categoria"
+                  placeholder="Informe a categoria da sua empresa"
+                    />
+                      </div>
+
+      <div class="mb-3">
+        <label for="localizaçao" class="form-label">Informe a localização da sua Empresa</label>
+        <input
+          type="text"
+            formControlName="localizaçao"
+              class="form-control"
+                id="localizaçao"
+                  placeholder="Informe a localização da sua empresa"
+                    />
+                      </div>
+
+      <div class="mb-3 d-flex justify-content-end">
+        <button class="btn btn-primary" (click)="save()">Salvar</button>
+          </div>
+            </form>
+              </div>
+                </div>
+
