@@ -43,5 +43,18 @@ export class EmpresasComponent {
     this.formGroupEmpresas.reset();
   }
 
+  loadEmpresas(){
+    this.EmpresasService.getEmpresas().subscribe(
+      {
+          next:  data =>  this.empresas = data,
+          error: msg  => console.log("Erro ao chamar o endpont " + msg)
+      }
+    )
+}
+
+ngOnInit(): void {
+  this.loadEmpresas();
+}
+
 
 }
