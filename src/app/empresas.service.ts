@@ -8,7 +8,7 @@ import { Empresas } from './empresas/empresas';
 })
 export class EmpresasService {
 
-  url = "http://localhost:3000/empresas";
+  url = "http://localhost:8080/empresas";
   constructor(private http: HttpClient) { }
 
   getEmpresas(): Observable<Empresas[]> {
